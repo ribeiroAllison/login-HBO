@@ -73,7 +73,7 @@ button{
 
 button:hover{
     cursor: pointer;
-    background-color: #b9a9f7;
+    background: #b9a9f7;
 }
 
 @media only screen and (max-width:600px){
