@@ -90,32 +90,52 @@ button:hover{
 
 form{
     width: 100%;
+    
 }
 
 .formCta{
     
     margin-top: 19px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 .formCta label{
+    width: 70%;
     font-size: 33px;
     font-size: 400;
-    padding-left: 10px;
+    padding-left: 15%;
+    float: left;
+    align-self: flex-start;
    
 
     
 }
 
 .formCta input{
-    width: 95%;
+    width: 70%;
     height: 53px;
     border-radius: 25px;
     background-color: #7F7F7F;
     border: none;
     margin-top: 20px;
+    align-self: center;
     
 }
+
+@media only screen and (max-width:600px){
+    .formCta input{
+        width: 90%;
+       
+        
+    }
+
+    .formCta label{
+        padding-left: 5%;
+    }
 
 
 
