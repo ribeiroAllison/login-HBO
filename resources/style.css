@@ -70,12 +70,17 @@ button:hover{
 
 .formCta{
     width: 566px;
+    margin-top: 20px;
     
 }
 
 .formCta label{
     font-size: 33px;
     font-size: 400;
+    padding-left: 10px;
+   
+
+    
 }
 
 .formCta input{
@@ -84,7 +89,7 @@ button:hover{
     border-radius: 25px;
     background-color: #7F7F7F;
     border: none;
-    border-top: 30px;
+    margin-top: 20px;
     
 }
 
