@@ -28,7 +28,17 @@ nav li{
     text-align: center;
     font-size: 29px;
     font-size: 400;
+    color: white;
     
+    
+}
+
+nav li:hover{
+    color: rgb(190, 187, 187);
+}
+
+nav a{
+    text-decoration: none;
 }
 
 /* MAIN SECTION */
