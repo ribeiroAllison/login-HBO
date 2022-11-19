@@ -66,7 +66,7 @@ button{
     margin-top: 44px;
     font-size: 33px;
     color: white;
-    background-color: #8C77E0;
+    background: linear-gradient(90deg, #A18CD1 0%, #FBC2EB 100%);
     border: none;
     
 }
@@ -76,10 +76,24 @@ button:hover{
     background-color: #b9a9f7;
 }
 
+@media only screen and (max-width:600px){
+    main h2{
+        font-size: 23px;
+       
+        
+    }
+    
+    
+}
+
 /* FORM SECTION */
 
+form{
+    width: 100%;
+}
+
 .formCta{
-    width: 566px;
+    
     margin-top: 19px;
     
 }
@@ -94,7 +108,7 @@ button:hover{
 }
 
 .formCta input{
-    width: 100%;
+    width: 95%;
     height: 53px;
     border-radius: 25px;
     background-color: #7F7F7F;
@@ -102,6 +116,8 @@ button:hover{
     margin-top: 20px;
     
 }
+
+
 
 /* FOOTER SECTION */
 footer{
@@ -111,11 +127,12 @@ footer{
     margin-top: 27px;
 }
 footer h2{
-    width: 587px;
+    width: 95%;
     text-align: center;
     font-weight: 400;
 }
 
 footer button{
     width: 366px;
+    margin-bottom: 50px;
 }
