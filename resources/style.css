@@ -145,6 +145,10 @@ form{
     .formCta label{
         padding-left: 5%;
     }
+
+    button{
+        font-size: 25px;
+    }
 }
 
 
