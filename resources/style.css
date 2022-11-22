@@ -121,13 +121,13 @@ form{
     width: 70%;
     font-size: 33px;
     font-size: 400;
-    padding-left: 15%;
+    padding-left: 25%;
     
     align-self: flex-start;
 }
 
 .formCta input{
-    width: 70%;
+    width: 50%;
     height: 53px;
     border-radius: 25px;
     background-color: #7F7F7F;
